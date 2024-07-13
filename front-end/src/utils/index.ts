@@ -1,0 +1,2 @@
+// este diretorio contera funcoes recorrentes utilitarias que sao usadas varias vezes durante o projeto
+// por ex: calcular x coisas, filtrar membros por area, etc (MAS NAO DIRETAMENTE DO BANCO DE DADOS! isso sera na /services)

@@ -1,0 +1,1 @@
+// este diretorio contera todas as requisicoes / servicos que se comunicam diretamente com o backend (geralmente assincronas)
