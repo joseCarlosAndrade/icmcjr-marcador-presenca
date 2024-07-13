@@ -1,4 +1,4 @@
-import React from 'react'
+import './Template.css'
 
 import { TemplateProps } from 'src/types'
 // template para componentes react com typescript
@@ -8,7 +8,7 @@ function Template( templateProp : TemplateProps) {
   return (
    // criando um componente template para usarem de exemplo! 
     <> 
-    <div>Template. Props:</div> 
+    <div className='template-title'>Hello icmc jr! Template Props:</div> 
         <div className='template-container'>
             {templateProp.templateName}
             {templateProp.templateNumber}

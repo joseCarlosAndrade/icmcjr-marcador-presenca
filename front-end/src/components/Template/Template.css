@@ -1,0 +1,7 @@
+.template-title {
+    font-size: x-large;
+    margin: 2rem;
+    border: 2px blue solid;
+    border-radius: 15px;
+    padding: 2rem;
+}

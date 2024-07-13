@@ -1,17 +1,18 @@
 import './App.css'
-import {Template} from './components'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { OtherPage, TemplatePage } from './pages'
 
 
 function App() {
 
   return (
-    <>
-     Hello icmc jr
-        <Template 
-          templateName='nome! '
-          templateNumber={10}>
-        </Template>
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<TemplatePage/>}></Route>
+        <Route path='otherpage' element={<OtherPage/>}></Route>
+      </Routes>
+    </BrowserRouter>
+   
   )
 }
 
