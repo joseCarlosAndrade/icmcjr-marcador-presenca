@@ -2,4 +2,6 @@
 // poder inseri-la no router em app.tsx
 
 export {default as TemplatePage} from './TemplatePage/TemplatePage'
+
 export {default as OtherPage} from './OtherPage/OtherPage'
+export {default as Homepage} from './Homepage/Homepage'

@@ -1,6 +1,6 @@
 import './App.css'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import { OtherPage, TemplatePage } from './pages'
+import { Homepage, OtherPage } from './pages'
 
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path='/' element={<TemplatePage/>}></Route>
+        <Route path='/' element={<Homepage/>}></Route>
         <Route path='otherpage' element={<OtherPage/>}></Route>
       </Routes>
     </BrowserRouter>
