@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+body {
+    background: linear-gradient(to bottom, #1F2448, #7FA0A8, #FFFFFF, #7FA0A8, #1F2448);
+}
+
+#titulo-cadastro-reuniao {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 33px;
+    text-align: center;
+    color: white;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.subtitulo-cadastro-reuniao {
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    font-size: 23px;
+    color: black;
+    text-align: left;
+    margin-bottom: 3px;
+}
+
+.button-cadastro-reuniao {
+    margin-top: 30px;
+    background: linear-gradient(to left, #6600FF, #00CC99);
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 50px;
+    cursor: pointer; /* Cursor indica botão clicável */
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 17px;
+    text-shadow: 0px 0.5px 1px black;
+    border: none;
+}

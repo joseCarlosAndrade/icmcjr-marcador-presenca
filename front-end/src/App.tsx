@@ -1,6 +1,6 @@
 import './App.css'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import { Homepage, OtherPage } from './pages'
+import { Homepage, OtherPage, CadastroReuniao } from './pages'
 
 
 function App() {
@@ -10,6 +10,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Homepage/>}></Route>
         <Route path='otherpage' element={<OtherPage/>}></Route>
+        <Route path='cadastroReuniao' element={<CadastroReuniao/>}></Route>
       </Routes>
     </BrowserRouter>
    
