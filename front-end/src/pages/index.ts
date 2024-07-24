@@ -7,3 +7,4 @@ export {default as OtherPage} from './OtherPage/OtherPage'
 export {default as Homepage} from './Homepage/Homepage'
 
 export {default as CadastroReuniao} from './CadastroReuniao/CadastroReuniao'
+export {default as AceiteJustificativa} from './AceiteJustificativa/AceiteJustificativa'
