@@ -7,13 +7,12 @@ import CardPossivelUsuario from 'src/components/CardPossivelUsuario/CardPossivel
 // Vetor de possíveis usuários 
 const possiveisUsuarios: PossivelUsuario[] = [
     { nome: 'Cristiano Ronaldo', email: 'cristiano.ronaldo@gmail.com' },
-    { nome: 'Lionel Andrés Messi', email: 'lionel.messi@gmail.com' },
+    { nome: 'Lionel Andrés Messi', email: 'lionel.andres.messi.@gmail.com' },
     { nome: 'Neymar Junior', email: 'neymar.junior@gmail.com' },
     { nome: 'Zinédine Zidane', email: 'zinedine.zidane@gmail.com' },
-    { nome: 'Cristiano Ronaldo', email: 'cristiano.ronaldo@gmail.com' },
-    { nome: 'Lionel Andrés Messi', email: 'lionel.messi@gmail.com' },
-    { nome: 'Neymar Junior', email: 'neymar.junior@gmail.com' },
-    { nome: 'Zinédine Zidane', email: 'zinedine.zidane@gmail.com' }
+    { nome: 'Luís Henrique Giorgetti Dantas', email: 'luis.henrique.giorgetti.dantas.malu.oliveira.@gmail.com' },
+    { nome: 'Jude Bellingham', email: 'hey.jude@gmail.com' },
+    { nome: 'Ronaldo Fenômeno', email: 'ronaldo.nazario@gmail.com' }
 ];
 
 function PermitirLogin() {
