@@ -5,3 +5,6 @@ export {default as TemplatePage} from './TemplatePage/TemplatePage'
 
 export {default as OtherPage} from './OtherPage/OtherPage'
 export {default as Homepage} from './Homepage/Homepage'
+export {default as Login} from './Login/Login'
+export {default as Cadastro} from './Cadastro/Cadastro'
+export {default as Limbo} from './Limbo/Limbo'
