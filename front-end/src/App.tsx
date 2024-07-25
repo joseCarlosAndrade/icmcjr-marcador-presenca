@@ -1,6 +1,6 @@
 import './App.css'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import { Homepage, OtherPage, CadastroReuniao, AceiteJustificativa, PermitirLogin } from './pages'
+import { Homepage, OtherPage, CadastroReuniao, AceiteJustificativa, PermitirLogin, EscolherCargos } from './pages'
 
 function App() {
 
@@ -12,6 +12,7 @@ function App() {
         <Route path='cadastroReuniao' element={<CadastroReuniao/>}></Route>
         <Route path='aceiteJustificativa' element={<AceiteJustificativa/>}></Route>
         <Route path='permitirLogin' element={<PermitirLogin/>}></Route>
+        <Route path='escolherCargos' element={<EscolherCargos/>}></Route>
       </Routes>
     </BrowserRouter>
    
