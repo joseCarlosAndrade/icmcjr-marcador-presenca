@@ -6,3 +6,9 @@ export interface TemplateProps {
     templateNumber : number
     templateArray? : number[] // simbolo ? diz que parametro eh opcional ou pode ser nulo
 }
+
+// Definição da interface User para simulação do BD
+export interface PossivelUsuario {
+    nome: string;
+    email: string;
+}

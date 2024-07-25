@@ -1,6 +1,6 @@
 import './App.css'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import { Homepage, OtherPage, CadastroReuniao, AceiteJustificativa } from './pages'
+import { Homepage, OtherPage, CadastroReuniao, AceiteJustificativa, PermitirLogin } from './pages'
 
 function App() {
 
@@ -11,6 +11,7 @@ function App() {
         <Route path='otherpage' element={<OtherPage/>}></Route>
         <Route path='cadastroReuniao' element={<CadastroReuniao/>}></Route>
         <Route path='aceiteJustificativa' element={<AceiteJustificativa/>}></Route>
+        <Route path='permitirLogin' element={<PermitirLogin/>}></Route>
       </Routes>
     </BrowserRouter>
    

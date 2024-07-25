@@ -1,0 +1,29 @@
+.card-possivel-usuario {
+    background-color: #1F2448;
+    border: none;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 8px 0;
+    width: 80%;
+}
+
+#nome-possivel-usuario {
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    margin: 0;
+    font-size: 23px;
+    color: white;
+}
+
+.card-possivel-usuario p {
+    margin: 8px 0 0;
+    font-size: 14px;
+    color: white;
+}
+
+/* Media Query para telas maiores */
+@media (min-width: 1024px) {
+    .card-possivel-usuario {
+        width: 50%;
+    }
+}
