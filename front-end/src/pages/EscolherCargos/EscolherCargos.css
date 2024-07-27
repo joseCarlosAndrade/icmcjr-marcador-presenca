@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+.escolher-cargos-section {
+    background-color: #2E3567;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    height: 100vh; /* Fallback for browsers that do not support Custom Properties */
+    height: calc(var(--vh, 1vh) * 100);
+    width: 100vw;
+    overflow: hidden;
+}
+
+#titulo-alterar-cargos {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 29px;
+    text-align: center;
+    color: #D4FBF7;
+    margin-top: 75px;
+    margin-bottom: 25px;
+}
+
+.container-escolha-cargo-usuarios {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    background-color: #2E3567;
+    overflow-y: auto; /* Permite o scroll vertical */
+    flex: 1;
+}
+
+.container-button-salvar-mudancas {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+    background-color: #2E3567;
+}
+
+.button-salvar-mudancas {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #2B590E;
+    background-color: #01C2A7;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 50px;
+    cursor: pointer;
+}

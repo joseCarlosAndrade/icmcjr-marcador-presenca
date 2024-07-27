@@ -1,0 +1,58 @@
+.card-escolha-cargo-usuario {
+    background-color: #1F2448;
+    border: none;
+    border-radius: 12px;
+    padding: 16px;
+    margin: 8px 0;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    box-sizing: border-box;
+}
+
+.info-usuario {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    width: 100%;
+}
+
+.imagem-usuario {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+#nome-usuario {
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    font-size: 24px;
+    margin: 0;
+    color: #D4FBF7;
+    text-align: left; 
+    white-space: nowrap; /* Impede quebra de linha */
+    overflow: hidden; /* Oculta caracteres do nome que excedam o contêiner */
+    text-overflow: ellipsis; /* Adiciona "..." ao final de textos muito longos */
+    max-width: calc(100% - 76px);
+}
+
+.seletor-cargos {
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    color: #92C3A0;
+    background-color: transparent;
+    border-radius: 6px;
+    border-color: #2E3567;
+    border-width: 2px;
+    padding: 2px;
+    box-sizing: border-box;
+}
+
+/* Media Query para telas maiores */
+@media (min-width: 1024px) {
+    .card-escolha-cargo-usuario {
+        width: 60%;
+    }
+}
