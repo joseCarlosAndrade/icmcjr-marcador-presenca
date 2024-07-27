@@ -1,0 +1,6 @@
+.header {
+    width: 100vw;
+    height: 35vh;
+
+    background-color: var(--background-blue-dark);
+}

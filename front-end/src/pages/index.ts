@@ -4,4 +4,6 @@
 export {default as TemplatePage} from './TemplatePage/TemplatePage'
 
 export {default as OtherPage} from './OtherPage/OtherPage'
+
 export {default as Homepage} from './Homepage/Homepage'
+export {default as ProfilePage} from './ProfilePage/ProfilePage'

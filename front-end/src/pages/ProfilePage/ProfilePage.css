@@ -1,0 +1,8 @@
+.profilesection {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--background-blue-light);
+    width: 100vw;
+    height: 100vh;
+}

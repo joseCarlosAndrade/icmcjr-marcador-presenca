@@ -1,12 +1,14 @@
 import React from 'react'
 import './Homepage.css'
 
+import { ICMCjrSVG } from 'src/assets'
+
 function Homepage() {
   return (
     <>
     <section className='homepage-section'>
         
-        <img  src="src/assets/ICMCjr-gradient.svg" alt="icmc jr" />
+        <img  src={ICMCjrSVG} alt="icmc jr" />
         
         <div className='homepage-button-container'>
             <button className='button-login'>Entrar</button>
