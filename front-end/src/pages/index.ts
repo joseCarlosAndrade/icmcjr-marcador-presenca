@@ -5,6 +5,11 @@ export {default as TemplatePage} from './TemplatePage/TemplatePage'
 
 export {default as OtherPage} from './OtherPage/OtherPage'
 export {default as Homepage} from './Homepage/Homepage'
+
+export {default as CadastroReuniao} from './CadastroReuniao/CadastroReuniao'
+export {default as AceiteJustificativa} from './AceiteJustificativa/AceiteJustificativa'
+export {default as PermitirLogin} from './PermitirLogin/PermitirLogin'
+export {default as EscolherCargos} from './EscolherCargos/EscolherCargos'
 export {default as Login} from './Login/Login'
 export {default as Cadastro} from './Cadastro/Cadastro'
 export {default as Limbo} from './Limbo/Limbo'
