@@ -13,3 +13,5 @@ export {default as EscolherCargos} from './EscolherCargos/EscolherCargos'
 export {default as Login} from './Login/Login'
 export {default as Cadastro} from './Cadastro/Cadastro'
 export {default as Limbo} from './Limbo/Limbo'
+
+export {default as ProfilePage} from './Profile/ProfilePage';

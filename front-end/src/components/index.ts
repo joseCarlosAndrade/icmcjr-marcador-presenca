@@ -8,3 +8,4 @@ export {default as CardPossivelUsuario} from './CardPossivelUsuario/CardPossivel
 export {default as CardEscolhaCargoUsuario} from './CardEscolhaCargoUsuario/CardEscolhaCargoUsuario';
 
 export {default as HeaderPage} from './HeaderPage/HeaderPage';
+export {default as CurrrentMeeting} from './CurrentMeeting/CurrentMeeting';

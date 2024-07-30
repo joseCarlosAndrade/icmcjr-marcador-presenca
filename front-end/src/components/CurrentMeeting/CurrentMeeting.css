@@ -1,0 +1,19 @@
+.current-meeting {
+    background-color: #1F2448;
+    margin: 2rem 1rem;
+    border-radius: 7px;
+    color: white;
+    font-weight: 400;
+    font-size: 1.3rem;
+    min-height: 5rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.active {
+    
+    border: solid 2px;
+    border-color: #01C2A7;
+}
