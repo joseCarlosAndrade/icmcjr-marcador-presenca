@@ -1,4 +1,4 @@
-import React from 'react';
+
 import './MenuButton.css';
 
 import { MenuIconSVG } from 'src/assets';

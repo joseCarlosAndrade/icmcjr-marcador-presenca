@@ -1,21 +1,14 @@
-import React from 'react'
 import './AceiteJustificativa.css'
-import MenuButton from 'src/components/MenuButton/MenuButton.tsx';
-import perfilImg from 'src/assets/perfil.svg';
+import { HeaderPage } from 'src/components';
 
 function AceiteJustificativa() {
     return (
       <>
       <section className='aceite-justificativa-section'>
 
-        <MenuButton/>
-
-        <img src={perfilImg} alt="Perfil" className='perfil-imagem' />
-
-        <h1 id='titulo-nome-perfil'>Bob Nelson Honda Cavalheiro</h1>
-        
-        { /* TO-DO: analisar o campo do BD que diz se essa pessoa é membro ou diretor */ }
-        <h2 id='subtitulo-nome-perfil'>Membro</h2>
+        <HeaderPage 
+          name='Bob Nelson Honda Cavalheiro'
+          jobTitle='Membro'></HeaderPage>
 
         <div className='container-azul-claro'>
             {/* TO-DO: a data deve ser exibida de acordo com a data que vier do BD */}

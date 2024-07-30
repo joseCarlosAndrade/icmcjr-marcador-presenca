@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+.aceite-justificativa-section {
+    background-color: #1F2448;
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza horizontalmente */
+    justify-content: center; /* Centraliza verticalmente */
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+  
+.perfil-imagem {
+    width: 125px;
+    height: auto;
+    margin-top: 70px;
+}
+
+#titulo-nome-perfil {
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    font-size: 24px;
+    text-align: center;
+    color: white;
+    margin-bottom: 0;
+}
+
+#subtitulo-nome-perfil {
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    text-align: center;
+    color: #92C3A0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
