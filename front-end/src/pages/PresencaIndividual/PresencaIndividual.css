@@ -16,9 +16,19 @@
     flex-direction: column;
 }
 
+.Presenca-individual-dados-titulo{
+    padding: 1vh 0;
+}
+
 .Presenca-individual-dados-card{
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.Presenca-individual-mensagem h5{
+    padding-top: 8vh;
+    font-weight: 300;
+    color: #D4FBF7;
 }
