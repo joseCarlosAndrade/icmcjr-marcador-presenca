@@ -1,0 +1,44 @@
+.Consulta-presenca-data{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    top: 0;
+    left: 0;
+    background-color: #2E3567;
+}
+
+.Header-consulta-presenca-data{
+    width: 80%;
+    height: 7%;
+    margin-top: 2vh;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2448;
+}
+
+.Consulta-presenca-data-nome{
+    width: 80%;
+    border-radius: 8px;
+    padding: 2vh 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #5A63A8;
+    overflow:auto;
+}
+
+.Consulta-presenca-data-nome::-webkit-scrollbar{
+    background-color: #5A63A8;
+    width: 10px;
+}
+
+.Consulta-presenca-data-nome::-webkit-scrollbar-thumb{   
+    border-radius: 20px;       
+    border: 2px solid #3f4892;
+    background-color: #3f4892;
+}

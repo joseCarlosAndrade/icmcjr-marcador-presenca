@@ -1,0 +1,49 @@
+.Card-Membros-Presencas-Data{
+    width: 80%;
+    height: auto;
+    margin: 1vh 0;
+    padding: 1vh 2vh;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    color: #1F2448;
+}
+
+.Card-Membros-Presencas-Data h5{
+    margin: 1.5vh 1.5vh 1.5vh 1.5vh;
+}
+
+.Card-Membros-Presencas-Data-Geral{
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+}
+
+.Card-Membros-Presencas-Data-Estado{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.Card-Membros-Presencas-Data-Estado select{
+    border: none;
+    border-radius: 8px;
+    color: #1F2448;
+    background-color: #dedddd;
+}
+
+.bg-verde{
+    background-color: #90CAA7;
+}
+
+.bg-laranja{
+    background-color: #B69E70; 
+}
+
+.bg-vermelho{
+    background-color: #A64F4F; 
+}

@@ -1,0 +1,19 @@
+.Card-Membros-Presencas{
+    width: 80%;
+    height: 5vh;
+    margin: 1vh 0;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2448;
+}
+
+.Card-Membros-Presencas h5{
+    margin-left: 2vh;
+    font-weight: 400;
+}
+
+.Card-Membros-Presencas i{
+    margin-right: 2vh;
+}
