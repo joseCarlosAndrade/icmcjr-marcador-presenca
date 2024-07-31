@@ -1,4 +1,4 @@
-import { HeaderPage } from 'src/components'
+import { Header } from 'src/components'
 import CurrentMeeting from 'src/components/CurrentMeeting/CurrentMeeting'
 import './ProfilePage.css';
 
@@ -8,10 +8,10 @@ function Profile() {
 
   return (
     <section className='profile-section'>
-      <HeaderPage 
+      <Header 
           name='Bob Nelson Honda Cavalheiro'
           jobTitle='Membro'>  
-      </HeaderPage>
+      </Header>
       <div className='buttons-separator'>
 
         <CurrentMeeting
