@@ -42,14 +42,14 @@ function CardReuniaoGeral(){
     }
 
     function openPresenca(){
-        if(location.pathname === '/presenca')
+        if(location.pathname === '/presenca' || location.pathname === '/Presenca')
             return setIsPresenca(true);
         else
             return setIsPresenca(false);
     }
 
     function openJustificativa(){
-        if(location.pathname === '/justificativa'){
+        if(location.pathname === '/justificativa' || location.pathname === '/Justificativa'){
             return setIsJustificativa(true);
         }   
         else
