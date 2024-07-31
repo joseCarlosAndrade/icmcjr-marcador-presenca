@@ -1,5 +1,4 @@
-import React from 'react'
-import './HeaderPage.css'
+import './Header.css'
 import MenuButton from 'src/components/MenuButton/MenuButton'
 import perfilImg from 'src/assets/perfil.svg';
 

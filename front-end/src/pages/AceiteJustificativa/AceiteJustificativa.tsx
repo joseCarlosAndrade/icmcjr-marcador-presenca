@@ -1,14 +1,14 @@
 import './AceiteJustificativa.css'
-import { HeaderPage } from 'src/components';
+import { Header } from 'src/components';
 
 function AceiteJustificativa() {
     return (
       <>
       <section className='aceite-justificativa-section'>
 
-        <HeaderPage 
-          name='Bob Nelson Honda Cavalheiro'
-          jobTitle='Membro'></HeaderPage>
+        <Header
+          name={"Bob Nelson Honda Cavalheiro"}
+          jobTitle={"Membro"}></Header>
 
         <div className='container-azul-claro'>
             {/* TO-DO: a data deve ser exibida de acordo com a data que vier do BD */}

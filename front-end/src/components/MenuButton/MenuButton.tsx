@@ -9,13 +9,8 @@ function MenuButton() {
       <img src={MenuIconSVG.toString()} alt="" />
     </div>
   )
-  // return (
-  //   <button className="menu-button">
-  //     <div className="bar"></div>
-  //     <div className="bar"></div>
-  //     <div className="bar"></div>
-  //   </button>
-  // );
+
+  
 }
 
 export default MenuButton;

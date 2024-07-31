@@ -15,3 +15,7 @@ export {default as Cadastro} from './Cadastro/Cadastro'
 export {default as Limbo} from './Limbo/Limbo'
 
 export {default as ProfilePage} from './Profile/ProfilePage';
+export {default as Justificativa} from './Justificativa/Justificativa'
+export {default as Presenca} from './Presenca/Presenca'
+export {default as PresencaData} from './PresencaData/PresencaData'
+export {default as PresencaIndividual} from './PresencaIndividual/PresencaIndividual'
