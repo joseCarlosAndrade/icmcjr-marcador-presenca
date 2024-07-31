@@ -1,0 +1,1 @@
+export {default as MenuIconSVG} from './menuIcon.svg'
