@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+.permitir-login-section {
+    /* position: fixed;
+    top: 0; */
+    background-color: #2E3567;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    height: 100vh; /* Fallback for browsers that do not support Custom Properties */
+    height: calc(var(--vh, 1vh) * 100);
+    width: 100vw;
+    overflow: hidden;
+}
+
+.container-button-titulo {
+    background-color: #1F2448;
+    width: 100vw;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+#titulo-permissao-login {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 29px;
+    text-align: center;
+    color: #D4FBF7;
+    margin-top: 75px;
+    margin-bottom: 25px;
+}
+
+.container-possiveis-usuarios {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    background-color: #2E3567;
+    overflow-y: auto; /* Permite o scroll vertical */
+}

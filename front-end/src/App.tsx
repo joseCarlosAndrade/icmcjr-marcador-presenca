@@ -1,8 +1,12 @@
 import './App.css'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import { Homepage, OtherPage, Login, Cadastro, Limbo, Justificativa, Presenca, PresencaData } from './pages'
+import { Homepage, OtherPage, Login, Cadastro, Limbo, Justificativa, Presenca, PresencaData, CadastroReuniao, AceiteJustificativa, PermitirLogin, EscolherCargos } from './pages'
 
 function App() {
+
+  const vh = window.innerHeight * 0.01;
+// Then we set the value in the --vh custom property to the root of the document
+document.documentElement.style.setProperty('--vh', `${vh}px`);  
 
   return (
     <BrowserRouter>
@@ -15,7 +19,10 @@ function App() {
         <Route path='Justificativa' element={<Justificativa/>}></Route>
         <Route path='Presenca' element={<Presenca/>}></Route>
         <Route path='PresencaData' element={<PresencaData/>}></Route>
-
+        <Route path='cadastroReuniao' element={<CadastroReuniao/>}></Route>
+        <Route path='aceiteJustificativa' element={<AceiteJustificativa/>}></Route>
+        <Route path='permitirLogin' element={<PermitirLogin/>}></Route>
+        <Route path='escolherCargos' element={<EscolherCargos/>}></Route>
       </Routes>
     </BrowserRouter>
    
