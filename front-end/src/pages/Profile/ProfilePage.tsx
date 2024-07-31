@@ -15,7 +15,7 @@ function Profile() {
       <div className='buttons-separator'>
 
         <CurrentMeeting
-          isOcurringMeeting={false}
+          isOcurringMeeting={true}
           meetingText='Reunião geral ocorrendo'
           ></CurrentMeeting>
 
