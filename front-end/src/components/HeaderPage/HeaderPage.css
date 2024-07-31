@@ -6,17 +6,26 @@
     width: 100vw;
     display: flex;
     flex-direction: column;
-    align-items: center; /* Centraliza horizontalmente */
-    justify-content: center; /* Centraliza verticalmente */
+    align-items: center; 
+    justify-content: center; 
+    
     margin: 0;
-    padding: 0 0 1rem 0;
+    padding: 3rem 0 1rem 0;
     overflow: hidden;
+}
+
+.headerpage-container--titles {
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+    
 }
   
 .perfil-imagem {
     width: 125px;
     height: auto;
-    margin-top: 70px;
+    /* margin-top: 70px; */
 }
 
 #titulo-nome-perfil {
@@ -36,4 +45,12 @@
     color: #92C3A0;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+@media screen and (min-width: 700px) {
+    .headerpage-container {
+        flex-direction: row;
+        gap: 3rem;
+    }
+    
 }

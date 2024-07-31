@@ -1,4 +1,4 @@
-import React from 'react';
+import { NotificationSVG } from 'src/assets';
 import './CurrentMeeting.css';
 
 interface CurrentMeetingProps {
@@ -12,10 +12,16 @@ function CurrentMeeting( props : CurrentMeetingProps) {
 
     <div className={`current-meeting ${props.isOcurringMeeting ? 'active' : ''}`}>
         {props.isOcurringMeeting ?
-        <div>{props.meetingText}</div>
-        
+        <div className='current-meeting--active-section'>
+            <div className='current-meeting--active-section--text'>
+                {props.meetingText}
+                <img src={NotificationSVG.toString()} alt="notification" />
+            </div>
+            
+            <button className='current-meeting--active-section--button'>Cadastrar Presença</button>
+        </div>
         :
-        <div>Nenhuma reunião ocorrendo.</div>
+        <div className='no-meeting'>Nenhuma reunião ocorrendo.</div>
         }
     </div>
   )
