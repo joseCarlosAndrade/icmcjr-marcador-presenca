@@ -1,6 +1,7 @@
 .Consulta-presenca-data{
     width: 100vw;
-    height: 100vh;
+    height: 100vh; 
+    height: calc(var(--vh, 1vh) * 100);
     position: absolute;
     display: flex;
     align-items: center;
@@ -11,10 +12,10 @@
 }
 
 .Header-consulta-presenca-data{
-    width: 80%;
+    width: 90%;
     height: 7%;
     margin-top: 2vh;
-    border-radius: 8px;
+    border-radius: 8px 8px 0 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -22,8 +23,8 @@
 }
 
 .Consulta-presenca-data-nome{
-    width: 80%;
-    border-radius: 8px;
+    width: 90%;
+    border-radius: 0 0 8px 8px;
     padding: 2vh 0;
     display: flex;
     align-items: center;

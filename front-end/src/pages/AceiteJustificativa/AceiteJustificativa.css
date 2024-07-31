@@ -18,11 +18,6 @@
     overflow: hidden;
 }
   
-.perfil-imagem {
-    width: 125px;
-    height: auto;
-    margin-top: 70px;
-}
 
 #titulo-nome-perfil {
     font-family: 'Poppins', sans-serif;

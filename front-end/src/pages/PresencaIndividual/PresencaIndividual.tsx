@@ -1,7 +1,7 @@
 import CardPorcentagemPresenca from "src/components/CardPorcentagemPresenca/CardPorcentagemPresenca"
 import './PresencaIndividual.css'
 import { useLocation } from 'react-router-dom';
-import CardFotoUsuario from "src/components/CardFotoUsuario/CardFotoUsuario"
+import { Header } from "src/components";
 
 
 function PresencaIndividual(){
@@ -13,10 +13,10 @@ function PresencaIndividual(){
         <div className="Presenca-individual">
 
             <div className="Presenca-individual-dados">
-                <CardFotoUsuario
-                    nome={"Lucas Piovani Ferreira"}
-                    cargo={"Membro"}
-                />
+                <Header
+                    name={"Lucas Piovani Ferreira"}
+                    jobTitle={"Membro"}></Header>
+
                 <div className="Presenca-individual-dados-titulo">
                     <h2>Presenças:</h2>
                 </div>
