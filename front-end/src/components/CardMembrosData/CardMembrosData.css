@@ -6,9 +6,9 @@
     border-radius: 8px;
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
     flex-direction: row;
     color: #1F2448;
+    cursor: pointer;
 }
 
 .Card-Membros-Presencas-Data h5{
@@ -20,6 +20,10 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between; 
+}
+
+#Card-Membros-Presencas-Data-Nome:hover{
+    text-decoration: underline;
 }
 
 .Card-Membros-Presencas-Data-Estado{

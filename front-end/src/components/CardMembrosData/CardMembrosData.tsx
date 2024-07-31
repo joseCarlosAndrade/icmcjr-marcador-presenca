@@ -45,8 +45,8 @@ const CardMembrosData: React.FC<CardMembrosDataProps> = ({ nome, estado, onUpdat
 
             <div className='Card-Membros-Presencas-Data-Geral' onClick={!isEdit ? handleClick : undefined}>
 
-                <h5>{nome}</h5>
-
+                <h5 id='Card-Membros-Presencas-Data-Nome'>{nome}</h5>
+                
                 <div className='Card-Membros-Presencas-Data-Estado'>
 
                     {isEdit ? (
