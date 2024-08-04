@@ -8,4 +8,6 @@ export {default as InputHora} from './InputHora/InputHora'
 export {default as CardPossivelUsuario} from './CardPossivelUsuario/CardPossivelUsuario'
 export {default as CardEscolhaCargoUsuario} from './CardEscolhaCargoUsuario/CardEscolhaCargoUsuario'
 
+export {default as CardPorcentagemPresenca} from './CardPorcentagemPresenca/CardPorcentagemPresenca'
+
 export {default as Header} from './Header/Header'

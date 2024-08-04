@@ -1,7 +1,7 @@
 import CardReuniaoGeral from 'src/components/CardReuniaoGeral/CardReuniaoGeral'
-import './Presenca.css'
+import './ConsultaPresenca.css'
 
-function Presencas(){
+function ConsultaPresencas(){
 
     return (
         <div className='Consulta-presenca'>
@@ -15,4 +15,4 @@ function Presencas(){
     )
 }
 
-export default Presencas
+export default ConsultaPresencas

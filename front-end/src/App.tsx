@@ -11,9 +11,10 @@ import { Homepage,
   EscolherCargos, 
   ProfilePage,
   Justificativa, 
-  Presenca, 
+  ConsultaPresenca, 
   PresencaData, 
-  PresencaIndividual
+  PresencaIndividual,
+  CadastrarPresenca
 
 } from './pages'
 
@@ -36,7 +37,7 @@ document.documentElement.style.setProperty('--vh', `${vh}px`);
         <Route path='Cadastro' element={<Cadastro/>}></Route>
         <Route path='Limbo' element={<Limbo/>}></Route>
         <Route path='Justificativa' element={<Justificativa/>}></Route>
-        <Route path='Presenca' element={<Presenca/>}></Route>
+        <Route path='consultaPresenca' element={<ConsultaPresenca/>}></Route>
         <Route path='PresencaData' element={<PresencaData/>}></Route>
         <Route path='cadastroReuniao' element={<CadastroReuniao/>}></Route>
         <Route path='aceiteJustificativa' element={<AceiteJustificativa/>}></Route>
@@ -44,6 +45,9 @@ document.documentElement.style.setProperty('--vh', `${vh}px`);
         <Route path='escolherCargos' element={<EscolherCargos/>}></Route>
         <Route path='perfil' element={<ProfilePage/>}></Route> 
         <Route path='PresencaIndividual' element={<PresencaIndividual/>}></Route>
+
+        <Route path='cadastrarPresenca' element={<CadastrarPresenca/>}></Route>
+        
       </Routes>
     </BrowserRouter>
    
