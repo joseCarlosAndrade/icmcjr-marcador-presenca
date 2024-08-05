@@ -1,7 +1,6 @@
 import './App.css'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { Homepage, 
-  OtherPage, 
   Login, 
   Cadastro,
   Limbo, 
@@ -14,7 +13,8 @@ import { Homepage,
   ConsultaPresenca, 
   PresencaData, 
   PresencaIndividual,
-  CadastrarPresenca
+  CadastrarPresenca,
+  CadastrarJustificativa
 
 } from './pages'
 
@@ -29,13 +29,10 @@ document.documentElement.style.setProperty('--vh', `${vh}px`);
     <BrowserRouter>
       <Routes>
         <Route path='/' element={<Homepage/>}></Route>
-        <Route path='otherpage' element={<OtherPage/>}></Route>
         <Route path='login' element={<Login/>}></Route>
         <Route path='cadastro' element={<Cadastro/>}></Route>
         <Route path='limbo' element={<Limbo/>}></Route>
-        <Route path='Login' element={<Login/>}></Route>
-        <Route path='Cadastro' element={<Cadastro/>}></Route>
-        <Route path='Limbo' element={<Limbo/>}></Route>
+  
         <Route path='Justificativa' element={<Justificativa/>}></Route>
         <Route path='consultaPresenca' element={<ConsultaPresenca/>}></Route>
         <Route path='PresencaData' element={<PresencaData/>}></Route>
@@ -43,11 +40,13 @@ document.documentElement.style.setProperty('--vh', `${vh}px`);
         <Route path='aceiteJustificativa' element={<AceiteJustificativa/>}></Route>
         <Route path='permitirLogin' element={<PermitirLogin/>}></Route>
         <Route path='escolherCargos' element={<EscolherCargos/>}></Route>
-        <Route path='perfil' element={<ProfilePage/>}></Route> 
+        
         <Route path='PresencaIndividual' element={<PresencaIndividual/>}></Route>
 
+        <Route path='perfil' element={<ProfilePage/>}></Route> 
         <Route path='cadastrarPresenca' element={<CadastrarPresenca/>}></Route>
-        
+        <Route path='cadastrarJustificativa' element={ <CadastrarJustificativa/> }></Route>
+        <Route path='consultaReuniao' element={<></>}></Route>
       </Routes>
     </BrowserRouter>
    
