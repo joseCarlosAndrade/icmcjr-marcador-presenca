@@ -22,3 +22,4 @@ export {default as PresencaIndividual} from './PresencaIndividual/PresencaIndivi
 
 export {default as CadastrarPresenca} from './CadastrarPresenca/CadastrarPresenca';
 export {default as CadastrarJustificativa} from './CadastrarJustificativa/CadastrarJustificativa';
+export {default as ConsultarReunioes} from './ConsultarReunioes/ConsultarReunioes';

@@ -16,14 +16,15 @@
 
 
 .inserir-justificativa-container p {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     font-weight: 500;
+    width: 80vw;
 }
 
 .inserir-justificativa-container textarea {
     background-color: #A1B0C5;
     border: none;
-    height: 30vh;
+    height: 20vh;
     width: 80vw;
     border-radius: 15px;
     padding: 1rem;
@@ -42,7 +43,7 @@
     display: flex;
 
     flex-direction: row;
-    width: 90vw;
+    width: 80vw;
     justify-content: space-between;
     align-items: center;
     padding-left: 2rem;

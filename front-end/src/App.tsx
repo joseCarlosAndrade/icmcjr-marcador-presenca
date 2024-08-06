@@ -14,7 +14,8 @@ import { Homepage,
   PresencaData, 
   PresencaIndividual,
   CadastrarPresenca,
-  CadastrarJustificativa
+  CadastrarJustificativa,
+  ConsultarReunioes
 
 } from './pages'
 
@@ -46,7 +47,7 @@ document.documentElement.style.setProperty('--vh', `${vh}px`);
         <Route path='perfil' element={<ProfilePage/>}></Route> 
         <Route path='cadastrarPresenca' element={<CadastrarPresenca/>}></Route>
         <Route path='cadastrarJustificativa' element={ <CadastrarJustificativa/> }></Route>
-        <Route path='consultaReuniao' element={<></>}></Route>
+        <Route path='consultaReuniao' element={<ConsultarReunioes/>}></Route>
       </Routes>
     </BrowserRouter>
    

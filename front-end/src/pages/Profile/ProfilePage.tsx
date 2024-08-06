@@ -1,5 +1,5 @@
 import { Header } from 'src/components'
-import CurrentMeeting from 'src/components/CurrentMeeting/CurrentMeeting'
+import {CurrentMeeting} from 'src/components'
 import './ProfilePage.css';
 
 function Profile() {
