@@ -49,7 +49,7 @@ function CardReuniaoGeral(){
     }
 
     function openJustificativa(){
-        if(location.pathname === '/justificativa'){
+        if(location.pathname === '/justificativa' || location.pathname === '/Justificativa'){
             return setIsJustificativa(true);
         }   
         else
