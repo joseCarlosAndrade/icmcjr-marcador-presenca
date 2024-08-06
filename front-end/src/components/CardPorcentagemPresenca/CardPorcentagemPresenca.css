@@ -1,8 +1,9 @@
 .Card-porcentagem-presenca{
-    width: 80%;
+    width: 90%;
     height: auto;
     padding: 0.3vh, 0;
     border-radius: 8px;
+    border-width: 2px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -36,14 +37,15 @@
 }
 
 .Card-porcentagem-presenca-circulo{
-    width: 100px;
-    height: 100px;
+    width: 130px;
+    height: 130px;
     border-radius: 50%;
     /* margin: 0 3vh 3vh 0; */
     display: flex;
     align-items: center;
     justify-content: center;
     color: #1F2448;
+    font-size: 1.8rem;
 }
 
 .Porcentagem-alta{
@@ -56,12 +58,13 @@
 
 .Card-porcentagem-presenca-numeros h3{
     font-weight: 400;
+    font-size: 1.5rem;
 }
 
 @media(min-width: 992px){
 
     .Card-porcentagem-presenca{
-        width: 40%;
+        width: 80%;
     }
 
     .Card-porcentagem-presenca-titulo{

@@ -13,7 +13,7 @@ const CardMembrosData: React.FC<CardMembrosDataProps> = ({ nome, estado, onUpdat
     const navigate = useNavigate();
 
     const handleClick = () => {
-        navigate('/PresencaIndividual'); 
+        navigate('/PresencaIndividual', {state : { mensagem: "mensagem aqui"}}); 
     };
 
     const getBackgroundClass = (estado: string) => {

@@ -1,0 +1,33 @@
+.profile-section--buttons {
+    display: flex;
+    flex-direction: column;
+    /* width: 90vw; */
+    margin: 2rem 1rem;
+    gap: 1rem;
+    border-radius: 12px;
+}
+
+.general-button {
+   
+    
+    background-color: #171A34;
+}
+
+.director-button {
+    background-color: #40A161;
+    
+}
+
+@media screen and (min-width: 700px) {
+    .profile-section--buttons {
+        /* margin: 0rem 15rem; */
+        width: 50vw;
+    }
+
+    .buttons-separator {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0 2rem;
+    }
+}
