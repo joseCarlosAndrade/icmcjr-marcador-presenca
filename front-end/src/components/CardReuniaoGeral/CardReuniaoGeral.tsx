@@ -42,7 +42,7 @@ function CardReuniaoGeral(){
     }
 
     function openPresenca(){
-        if(location.pathname === '/presenca' || location.pathname === '/Presenca')
+        if(location.pathname === '/consultapresenca')
             return setIsPresenca(true);
         else
             return setIsPresenca(false);

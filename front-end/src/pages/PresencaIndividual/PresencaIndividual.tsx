@@ -11,12 +11,13 @@ function PresencaIndividual(){
 
     return(
         <div className="Presenca-individual">
-
-            <div className="Presenca-individual-dados">
-                <Header
+            <Header
                     name={"Lucas Piovani Ferreira"}
                     jobTitle={"Membro"}></Header>
 
+            <div className="Presenca-individual-dados">
+                
+                
                 <div className="Presenca-individual-dados-titulo">
                     <h2>Presenças:</h2>
                 </div>
