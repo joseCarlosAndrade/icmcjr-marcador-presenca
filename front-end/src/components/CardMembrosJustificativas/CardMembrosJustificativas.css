@@ -1,0 +1,21 @@
+.Card-Membros-Justificativas{
+    width: 90%;
+    height: auto;
+    margin: 1vh 0;
+    padding: 1vh 0;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2448;
+}
+
+.Card-Membros-Justificativas h5{
+    margin: 0 0 0 2vh;
+    font-weight: 400;
+}
+
+.Card-Membros-Justificativas i{
+    margin-right: 2vh;
+    cursor: pointer;
+}

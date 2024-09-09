@@ -1,0 +1,51 @@
+.cadastro-pendente{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #8ABF99;
+    overflow: auto;
+}
+
+.cadastro-pendente::-webkit-scrollbar{
+    background-color: #8ABF99;
+    width: 10px;
+}
+
+.cadastro-pendente::-webkit-scrollbar-thumb{   
+    border-radius: 20px;       
+    border: 3px solid #76a283;
+    background-color: #76a283;
+}
+
+.cadastro-pendente img{
+    width: 40vh;
+}
+
+.cadastro-pendente h1{
+    margin-top: 15vh;
+    font-size: 5vh;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.cadastro-pendente h3{
+    margin:0;
+    text-align: justify;
+    font-weight: 400;
+}
+
+.cadastro-pendente-descricao{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 5vh 15vh 5vh;
+}
+
+.cadastro-pendente-texto{
+    padding-bottom: 10vh;
+}
+
+#negrito{
+    font-weight: bold;
+}

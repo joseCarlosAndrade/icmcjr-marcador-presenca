@@ -1,0 +1,47 @@
+.Card-reuniao-geral{
+    width: 90%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    color: white;
+    background-color: #1F2448;
+    cursor: pointer;
+}
+
+.Card-reuniao-geral h4{
+    font-weight: 400;
+    padding-left: 2vh;
+}
+
+.Card-reuniao-geral i{
+    padding-right: 2vh;
+}
+
+.Card-expansivo-reuniao-geral{
+    width: 90%;
+    height: auto;
+    padding: 1vh 0 1vh 0;
+    margin-bottom: 2vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 0 0 8px 8px;
+    overflow:auto;
+    background-color: #5A63A8;
+}
+
+.Card-expansivo-reuniao-geral::-webkit-scrollbar{
+    background-color: #5A63A8;
+    width: 10px;
+}
+
+.Card-expansivo-reuniao-geral::-webkit-scrollbar-thumb{   
+    border-radius: 20px;       
+    border: 2px solid #3f4892;
+    background-color: #3f4892;
+}
+
+

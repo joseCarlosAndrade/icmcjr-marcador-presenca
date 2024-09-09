@@ -1,0 +1,55 @@
+.cadastrar-justificativa-section {
+    width: 100vw;
+    height: 100vh;
+    height: calc(var(--vh, 1vh) * 100);
+}
+
+.inserir-justificativa-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: stretch;
+    width: 100%;
+    gap: 2rem;
+    
+}
+
+
+.inserir-justificativa-container p {
+    font-size: 1.8rem;
+    font-weight: 500;
+    width: 80vw;
+}
+
+.inserir-justificativa-container textarea {
+    background-color: #A1B0C5;
+    border: none;
+    height: 20vh;
+    width: 80vw;
+    border-radius: 15px;
+    padding: 1rem;
+    /* margin-left: 2rem;
+    margin-right: 2rem; */
+    
+}
+
+.inserir-justificativa-container button {
+    margin-bottom: 1rem;
+    border-radius: 30px;
+    font-weight: 400;
+    font-size: 1.3rem;
+
+
+    display: flex;
+
+    flex-direction: row;
+    width: 80vw;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+    background-color: #585852;
+    color: white;
+    padding-left: 2.4rem;
+}

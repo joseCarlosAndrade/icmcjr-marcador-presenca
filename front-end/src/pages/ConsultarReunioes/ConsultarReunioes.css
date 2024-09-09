@@ -1,0 +1,60 @@
+.consultar-reuniao-section {
+    height: 100vh;
+    height: calc(var(--vh, 1vh) * 100);
+    width: 100vw;
+    font-weight: 400;
+    font-size: 1.2rem;
+
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.consultar-reuniao-section--header {
+    background-color: #1F2448;
+    width: 100vw;
+    height: 9vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    font-weight: 500;
+    font-size: 1.4rem;
+}
+
+.consultar-reuniao-section--header img {
+    width: 2rem;
+    margin: 1.5rem;
+}
+
+.container-reunioes {
+    margin-top: 1rem;
+    font-weight: 500;
+    font-size: 1.4rem;
+}
+
+.container-reunioes--proximas-reunioes {
+    /* margin-top: 1rem; */
+    width: 90vw;
+    margin: 0 auto;
+}
+
+.next-meeting {
+    background-color: #1F2448;
+    height: 4rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+}
+
+.next-meeting--meeting {
+
+}
+
+.next-meeting--room {
+    margin-left: 4rem;
+    font-weight: 300;
+}
