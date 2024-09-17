@@ -14,11 +14,12 @@
 .consultar-reuniao-section--header {
     background-color: #1F2448;
     width: 100vw;
-    height: 9vh;
+    /* height: 9vh; */
     display: flex;
     flex-direction: row;
     align-items: center;
-
+    padding: 1.5rem;
+    padding-left: 5rem;
     font-weight: 500;
     font-size: 1.4rem;
 }

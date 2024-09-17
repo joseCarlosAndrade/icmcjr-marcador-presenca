@@ -35,10 +35,12 @@
 
 .button-login {
     background-color: #244A97;
-    font-weight: 400
+    font-weight: 400;
+    filter: drop-shadow(1px 1px 4px #15173f);
 }
 
 .button-singup {
     background-color: #319463;
     font-weight: 400;
+    filter: drop-shadow(1px 1px 4px #15173f);
 }

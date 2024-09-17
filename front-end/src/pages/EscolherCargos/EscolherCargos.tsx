@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import './EscolherCargos.css'
-import MenuButton from 'src/components/MenuButton/MenuButton.tsx';
 import { Usuario, Cargos } from 'src/types';
 import CardEscolhaCargoUsuario from 'src/components/CardEscolhaCargoUsuario/CardEscolhaCargoUsuario';
+import { Sidebar } from 'src/components';
 
 // Vetor de usuários, simula a tabela "Usuário" do BD com todos os membros da EJ
 const usuariosData: Usuario[] = [
@@ -35,9 +35,9 @@ function EscolherCargos() {
     return (
         <>
             <section className='escolher-cargos-section'>
-
+                <Sidebar></Sidebar>
                 <div className='container-button-titulo'>
-                    <MenuButton/>
+                    
                     <h1 id='titulo-alterar-cargos'>Alteração de cargos</h1>
                 </div>
 

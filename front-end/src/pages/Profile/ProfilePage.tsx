@@ -1,5 +1,5 @@
 import { Header } from 'src/components'
-import {CurrentMeeting} from 'src/components'
+import {CurrentMeeting, Sidebar} from 'src/components'
 import './ProfilePage.css';
 
 function Profile() {
@@ -8,6 +8,9 @@ function Profile() {
 
   return (
     <section className='profile-section'>
+
+      <Sidebar></Sidebar>
+
       <Header 
           name='Bob Nelson Honda Cavalheiro'
           jobTitle='Membro'>  

@@ -3,9 +3,18 @@ import './MenuButton.css';
 
 import { MenuIconSVG } from 'src/assets';
 
-function MenuButton() {
+interface MenuButtonProp {
+  isMenuActive : boolean
+  setIsMenuActive : React.Dispatch<React.SetStateAction<boolean>>
+}
+
+function MenuButton(prop : MenuButtonProp) {
+  function toggleMenu() {
+    prop.setIsMenuActive(!prop.isMenuActive)
+  }
+
   return (
-    <div className='menu-button'>
+    <div onClick={ () => toggleMenu()} className='menu-button'>
       <img src={MenuIconSVG.toString()} alt="" />
     </div>
   )

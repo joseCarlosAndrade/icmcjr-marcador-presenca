@@ -1,5 +1,5 @@
 import './Header.css'
-import MenuButton from 'src/components/MenuButton/MenuButton'
+// import MenuButton from 'src/components/MenuButton/MenuButton'
 import perfilImg from 'src/assets/perfil.svg';
 
 interface HeaderProps {
@@ -10,7 +10,7 @@ interface HeaderProps {
 function HeaderPage( headerProps : HeaderProps) {
   return (
     <div className='headerpage-container'>
-        <MenuButton/>
+        
 
         <img src={perfilImg} alt="Perfil" className='perfil-imagem' />
 

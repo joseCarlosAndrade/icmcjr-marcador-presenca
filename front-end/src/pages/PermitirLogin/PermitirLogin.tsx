@@ -1,8 +1,8 @@
 import React from 'react'
 import './PermitirLogin.css'
-import MenuButton from 'src/components/MenuButton/MenuButton.tsx';
 import { PossivelUsuario } from 'src/types';
 import CardPossivelUsuario from 'src/components/CardPossivelUsuario/CardPossivelUsuario';
+import { Sidebar } from 'src/components';
 
 // Vetor de possíveis usuários 
 const possiveisUsuarios: PossivelUsuario[] = [
@@ -19,9 +19,9 @@ function PermitirLogin() {
     return (
       <>
       <section className='permitir-login-section'>
-
+      <Sidebar/>
         <div className='container-button-titulo'>
-            <MenuButton/>
+            
             <h1 id='titulo-permissao-login'>Permissão de login</h1>
         </div>
 

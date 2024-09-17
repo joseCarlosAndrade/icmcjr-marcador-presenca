@@ -1,11 +1,12 @@
 import './AceiteJustificativa.css'
-import { Header } from 'src/components';
+import { Header, Sidebar } from 'src/components';
 
 function AceiteJustificativa() {
     return (
       <>
+      
       <section className='aceite-justificativa-section'>
-
+      {/* <Sidebar></Sidebar> por algum motivo isso aqui nao funciona nessa pagina e nao sei o pq*/}
         <Header
           name={"Bob Nelson Honda Cavalheiro"}
           jobTitle={"Membro"}></Header>

@@ -5,7 +5,7 @@
   /* font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif; */
   font-family: 'Poppins', sans-serif, Inter, system-ui;
   line-height: 1.5;
-  font-weight: lighter;
+  font-weight: 300;
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
@@ -16,6 +16,10 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+
+  --background-blue-light: #2E3567;
+  --background-blue-dark: #1F2448;
 }
 
 a {
