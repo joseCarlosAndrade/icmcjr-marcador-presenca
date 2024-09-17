@@ -12,3 +12,5 @@ export {default as CardPorcentagemPresenca} from './CardPorcentagemPresenca/Card
 
 export {default as Header} from './Header/Header';
 export {default as Divider} from './Divider/Divider';
+
+export {default as Sidebar} from './Sidebar/Sidebar';
