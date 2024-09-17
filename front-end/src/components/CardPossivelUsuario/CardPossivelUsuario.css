@@ -1,0 +1,89 @@
+.card-possivel-usuario {
+    background-color: #1F2448;
+    border: none;
+    border-radius: 12px;
+    padding: 16px;
+    margin: 8px 0;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    box-sizing: border-box;
+}
+
+.info-possivel-usuario {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    width: 100%;
+}
+
+#nome-possivel-usuario {
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    margin: 0;
+    font-size: 23px;
+    color: white;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#email-possivel-usuario {
+    margin: 0;
+    font-weight: normal;
+    font-size: 14px;
+    color: white;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#imagem-possivel-usuario {
+    width: 60px;
+    height: 60px;
+}
+
+.buttons-aceitar-rejeitar-possivel-usuario {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-aceitar-membro, .button-recusar-membro {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.button-aceitar-membro {
+    background-color: #01C2A7;
+    color: #2B590E;
+}
+
+.button-recusar-membro {
+    background-color: #CB3C56;
+    color: white;
+}
+
+/* Media Query para telas maiores */
+@media (min-width: 1024px) {
+    .card-possivel-usuario {
+        width: 50%;
+    }
+    .buttons-aceitar-rejeitar-possivel-usuario{
+        width: 50%;
+    }
+}

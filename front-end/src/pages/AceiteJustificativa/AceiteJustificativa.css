@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+#root { /* Removendo o padding e margem da div root */
+    padding: 0;
+    margin: 0;
+}
+
+.aceite-justificativa-section {
+    background-color: #1F2448;
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza horizontalmente */
+    justify-content: center; /* Centraliza verticalmente */
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+  
+
+#titulo-nome-perfil {
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    font-size: 24px;
+    text-align: center;
+    color: white;
+    margin-bottom: 0;
+}
+
+#subtitulo-nome-perfil {
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    text-align: center;
+    color: #92C3A0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.container-azul-claro {
+    background-color: #2E3567;
+    min-height: 100vh;
+    width: 100vw;
+}
+
+#titulo-falta {
+    color: #D4FBF7;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 29px;
+}
+
+.paragrafo-justificativa-falta {
+    color: #D4FBF7;
+    font-size: 20px;
+    text-align: left;
+    font-weight: 300;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.button-aceitar-justificativa {
+    margin-top: 30px;
+    background-color: #01C2A7;
+    color: #2B590E;
+    width: 300px;
+    height: 50px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    border-radius: 17px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.button-recusar-justificativa {
+    margin-top: 30px;
+    background-color: #CB3C56;
+    color: white;
+    width: 300px;
+    height: 50px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    border-radius: 17px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.container-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0px;
+}
+
+/* Media Query para telas maiores */
+@media (min-width: 1024px) {
+    .paragrafo-justificativa-falta {
+        width: 40%;
+    }
+}

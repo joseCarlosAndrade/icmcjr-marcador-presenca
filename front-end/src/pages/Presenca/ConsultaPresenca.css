@@ -1,0 +1,31 @@
+.Consulta-presenca{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    top: 0;
+    left: 0;
+    background-color: #2E3567;
+}
+
+.Header-consulta-presenca{
+    width: 100%;
+    height: auto;
+    margin-bottom: 5vh;
+    color: #f2f2f2;
+    background-color: #1F2448;
+}
+
+.Header-consulta-presenca i{
+    display: flex;
+    justify-content: left;
+    padding: 2vh 0 0 2vh;
+    font-size: 1.5em;
+}
+
+.Header-consulta-presenca h3{
+    font-size: 3.5vh;
+    font-weight: medium;
+}

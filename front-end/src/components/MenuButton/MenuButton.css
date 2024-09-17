@@ -1,0 +1,13 @@
+.menu-button {
+    background: transparent;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+}

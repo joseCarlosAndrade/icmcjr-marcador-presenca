@@ -1,0 +1,109 @@
+.Cadastro{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgb(138,191,153);
+    background: linear-gradient(0deg, rgba(138,191,153,1) 0%, rgba(226,239,229,1) 30%, rgba(255,255,255,1) 50%, rgba(226,239,229,1) 70%, rgba(138,191,153,1) 100%);
+}
+
+.Cadastro h1{
+    margin-top: 15vh;
+    padding-bottom: 3vh;
+    font-size: 6vh;
+    color: white;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.Cadastro h3{
+    margin: 0;
+    font-weight: 400;
+    color: black;
+}
+
+.Cadastro button{
+    width: 35%;
+    font-size: 2.5vh;
+    border: none;
+    background: rgb(0,204,153);
+    background: linear-gradient(0deg, rgba(0,204,153,1) 0%, rgba(102,0,255,1) 100%); 
+    padding: 1rem 0;
+}
+
+.Cadastro button:active{
+    outline: none;
+}
+
+.Cadastro button:focus{
+    outline: none;
+}
+
+.Cadastro-cadastro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 4vh;
+}
+
+.Cadastro input{
+    width: 98%;
+    height: 8vh;
+    border-radius: 4px;
+    padding-left: 2%;
+    padding-top: 0.5vh;
+    font-size: medium;
+    border: none;
+    background-color: white;
+    color: black;
+}
+
+.Cadastro input::placeholder{
+    color: #A8A8B3;
+}
+
+.Cadastro input:active{
+    outline: none;
+}
+
+.Cadastro input:focus{
+    outline: none;
+}
+
+.Cadastro-campos{
+    width: 70%;
+    padding-bottom: 30px;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+}
+
+.Cadastro-input{
+    color: #a8a8b3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    width: 98%;
+    padding-left: 2%;
+    border-radius: 4px;
+}
+
+.Cadastro-input i{
+    font-size: 1.3em;
+}
+
+@media(min-width: 992px){
+
+    .Cadastro button{
+        width: 20%;
+    }
+
+    .Cadastro-campos{
+        width: 50%;
+    }
+
+}
