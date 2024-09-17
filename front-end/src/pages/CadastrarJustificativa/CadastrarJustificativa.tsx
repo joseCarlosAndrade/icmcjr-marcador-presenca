@@ -1,10 +1,11 @@
-import { Header } from 'src/components'
+import { Header, Sidebar } from 'src/components'
 import './CadastrarJustificativa.css'
 import { exclamationIcon } from 'src/assets'
 
 function CadastrarJustificativa() {
   return (
     <section className='cadastrar-justificativa-section'>
+      <Sidebar></Sidebar>
         <Header
           name='Bob Nelson Honda Cavalheiro'
           jobTitle='Membro'>

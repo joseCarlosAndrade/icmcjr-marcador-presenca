@@ -1,7 +1,7 @@
 import CardPorcentagemPresenca from "src/components/CardPorcentagemPresenca/CardPorcentagemPresenca"
 import './PresencaIndividual.css'
 import { useLocation } from 'react-router-dom';
-import { Header } from "src/components";
+import { Header, Sidebar } from "src/components";
 
 
 function PresencaIndividual(){
@@ -11,6 +11,7 @@ function PresencaIndividual(){
 
     return(
         <div className="Presenca-individual">
+            <Sidebar></Sidebar>
             <Header
                     name={"Lucas Piovani Ferreira"}
                     jobTitle={"Membro"}></Header>

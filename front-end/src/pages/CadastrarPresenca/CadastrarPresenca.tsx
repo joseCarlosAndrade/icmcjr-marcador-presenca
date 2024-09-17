@@ -1,4 +1,4 @@
-import { Header, CardPorcentagemPresenca } from 'src/components'
+import { Header, CardPorcentagemPresenca, Sidebar } from 'src/components'
 import './CadastrarPresenca.css'
 import { warningIcon, correctIcon, exclamationIcon } from 'src/assets'
 
@@ -6,6 +6,7 @@ import { warningIcon, correctIcon, exclamationIcon } from 'src/assets'
 function CadastrarPresenca() {
   return (
     <section className='cadastrar-presenca-section'>
+        <Sidebar></Sidebar>
         <Header name='Jota ce' jobTitle='Membro'></Header>
         
         <div className='cadastrar-presenca-section--firstbox'>

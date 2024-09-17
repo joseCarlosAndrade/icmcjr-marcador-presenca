@@ -1,7 +1,7 @@
 import { MenuIconSVG } from 'src/assets';
 import './ConsultarReunioes.css';
 import { useEffect, useState } from 'react';
-import {CurrentMeeting, Divider} from 'src/components';
+import {CurrentMeeting, Divider, Sidebar} from 'src/components';
 
 const MeetingsToCome = [
   {
@@ -65,8 +65,9 @@ function ConsultarReunioes() {
 
   return (
     <section className='consultar-reuniao-section'>
+      <Sidebar></Sidebar>
         <div className='consultar-reuniao-section--header'>
-            <img src={MenuIconSVG.toString()} alt="menu button" />
+            {/* <img src={MenuIconSVG.toString()} alt="menu button" /> */}
             Próximas reuniões
         </div>
 

@@ -1,15 +1,15 @@
 import React from 'react'
 import './CadastroReuniao.css'
-import MenuButton from 'src/components/MenuButton/MenuButton.tsx';
 import InputData from 'src/components/InputData/InputData.tsx';
 import InputHora from 'src/components/InputHora/InputHora.tsx';
+import { Sidebar } from 'src/components';
 
 function CadastroReuniao() {
     return (
       <>
       <section className='cadastro-reuniao-section'>
 
-        <MenuButton/>
+        <Sidebar></Sidebar>
         
         <div className='cadastro-reuniao-container'>
             <h1 id='titulo-cadastro-reuniao'>Cadastro de Reunião</h1>
